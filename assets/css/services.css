@@ -20,6 +20,13 @@ section {
     color: #003AC9;
 }
 
+.cont-button {
+    /* align-items: center;
+    text-align: center; */
+    padding-left: 30%;
+    padding-bottom: 5%;
+}
+
 .about-head {
     width: 881px;
 height: 38px;
