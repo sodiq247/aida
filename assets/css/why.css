@@ -29,7 +29,31 @@ line-height: 175%;
 
 color: #7A7A7A;
 }
+.head {
+    width: 585px;
+height: 32px;
+margin-left: 15%;
+margin-bottom: -9%;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 17px;
+line-height: 175%;
+color: #7A7A7A;
+}
 
+.head2 {
+    width: 585px;
+height: 32px;
+margin-left: 35%;
+margin-bottom: -9%;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 175%;
+color: #7A7A7A;
+}
 .why-aida-content {
     margin-left: 7% !important;
 }
@@ -55,7 +79,23 @@ color: #7A7A7A;
 }
 
 .a {
-    margin-left: 25% !important;
+    margin-left: 15% !important;
     margin-top: 10%;
 }
 
+.a2 {
+    margin-left: 35% !important;
+    margin-top: 10%;
+}
+
+.x {
+    margin-left: -35%;
+}
+
+.y {
+    margin-left: -140px;
+}
+.head {
+    width: 585px;
+height: 32px;
+}
