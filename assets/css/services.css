@@ -274,3 +274,29 @@ flex: none;
 order: 4;
 flex-grow: 0;
 }
+.container {
+    overflow: hidden; /* Hides the overflowing content */
+    width: 100%; /* Set the width of the container to define visible area */
+  }
+  
+  .scrolling-content {
+    display: inline-block;
+    white-space: nowrap; /* Prevents line breaks */
+    animation: scroll-list 20s linear infinite; /* Apply the animation */
+    /* padding-right: 100% !important; */
+  }
+  
+  @keyframes scroll-list {
+    0% {
+      transform: translateX(100%); /* Start position of the animation */
+    }
+    100% {
+      transform: translateX(-100%); /* End position of the animation */
+    }
+  }
+  
+  .value-p {
+    display: inline-block;
+    padding-right: 20px; /* Add space between elements */
+  }
+  
